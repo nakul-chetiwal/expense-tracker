@@ -6,7 +6,7 @@ function ExpenseItem(props) {
   const [title, setTitle]=useState(props.title);
 
   const ClickHandler = () => {
-    // this just not update the value but also call component in which it is called
+     // this just not update the value but also call component in which it is called
      setTitle('Updeted!!!');
      console.log('Clicked!!!!!');
    
